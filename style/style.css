@@ -144,3 +144,32 @@ img{
     font-weight: bolder;
     color: #1F2937;
 }
+
+
+/* Quote section */
+
+.section-quote{
+    background-color: #E5E7EB;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-quote q{
+    font-size: 36px;
+    font-family: Italic;
+    font-weight: lighter;
+}
+
+.author{
+    align-self: flex-end;
+    font-size: 20px;
+}
