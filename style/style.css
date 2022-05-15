@@ -206,3 +206,18 @@ img{
     padding: 10px 30px;
     border-radius: 5px;
 }
+
+
+/* footer */
+
+footer{
+    background-color: #1F2937;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+}
